@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tenant-app/static/css/main.b2aaf27e.css",
+    "main.js": "/tenant-app/static/js/main.7ab85027.js",
+    "static/js/151.f3d2284a.chunk.js": "/tenant-app/static/js/151.f3d2284a.chunk.js",
+    "index.html": "/tenant-app/index.html",
+    "main.b2aaf27e.css.map": "/tenant-app/static/css/main.b2aaf27e.css.map",
+    "main.7ab85027.js.map": "/tenant-app/static/js/main.7ab85027.js.map",
+    "151.f3d2284a.chunk.js.map": "/tenant-app/static/js/151.f3d2284a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2aaf27e.css",
+    "static/js/main.7ab85027.js"
+  ]
+}
