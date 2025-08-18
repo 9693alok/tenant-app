@@ -16,10 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/9693alok/tenant-app.git"
   },
+  "homepage": "https://9693alok.github.io/tenant-app",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://9693alok.github.io/tenant-app",
   "dependencies": {
     "file-saver": "^2.0.5",
     "framer-motion": "^12.23.12",
