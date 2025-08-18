@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tenant-app/static/css/main.b2aaf27e.css",
-    "main.js": "/tenant-app/static/js/main.0d63bb6d.js",
-    "static/js/151.f3d2284a.chunk.js": "/tenant-app/static/js/151.f3d2284a.chunk.js",
+    "main.js": "/tenant-app/static/js/main.d359b6c6.js",
+    "static/js/146.f864bda4.chunk.js": "/tenant-app/static/js/146.f864bda4.chunk.js",
     "index.html": "/tenant-app/index.html",
     "main.b2aaf27e.css.map": "/tenant-app/static/css/main.b2aaf27e.css.map",
-    "main.0d63bb6d.js.map": "/tenant-app/static/js/main.0d63bb6d.js.map",
-    "151.f3d2284a.chunk.js.map": "/tenant-app/static/js/151.f3d2284a.chunk.js.map"
+    "main.d359b6c6.js.map": "/tenant-app/static/js/main.d359b6c6.js.map",
+    "146.f864bda4.chunk.js.map": "/tenant-app/static/js/146.f864bda4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2aaf27e.css",
-    "static/js/main.0d63bb6d.js"
+    "static/js/main.d359b6c6.js"
   ]
 }
