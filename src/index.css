@@ -1,0 +1,88 @@
+/* ------------------------
+   Tailwind Setup
+------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------
+   Global Styles
+------------------------- */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f3f4f6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------------------
+   General Animations
+------------------------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn { animation: fadeIn 1.2s ease-out forwards; }
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-bounce { animation: bounce 2s infinite; }
+
+/* ------------------------
+   3D Door
+------------------------- */
+.perspective {
+  perspective: 1200px;
+}
+
+@keyframes doorOpenAnim {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(-80deg); }
+}
+.door-open {
+  animation: doorOpenAnim 1.8s ease-in-out forwards;
+  transform-style: preserve-3d;
+  transform-origin: left center;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+  border: 2px solid #333;
+  background: linear-gradient(to bottom, #fcd34d, #fbbf24);
+}
+
+/* Door handle */
+.door-handle {
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+/* ------------------------
+   Room/Furniture Animations
+------------------------- */
+@keyframes roomFade {
+  0% { opacity: 0; transform: scale(1.2); }
+  50% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.2); }
+}
+.animate-roomFade { animation: roomFade 1s ease-in-out forwards; }
+
+@keyframes floorRise { from { height: 0; } to { height: 8px; } }
+.animate-floorRise { animation: floorRise 1s ease-out forwards; }
+
+@keyframes wallRise { from { height: 0; } to { height: 96px; } }
+.animate-wallRise { animation: wallRise 1s ease-out forwards; }
+
+@keyframes chairRise { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.animate-chairRise { animation: chairRise 1s ease-out forwards; }
+
+@keyframes bedRise { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.animate-bedRise { animation: bedRise 1s ease-out forwards; }
+
+@keyframes sofaRise { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.animate-sofaRise { animation: sofaRise 1s ease-out forwards; }
+
+@keyframes tableRise { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.animate-tableRise { animation: tableRise 1s ease-out forwards; }
