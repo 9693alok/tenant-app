@@ -1,5 +1,6 @@
 {
   "name": "tenant-app",
+<<<<<<< HEAD
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,10 +13,17 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+=======
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tenant management app with React, TailwindCSS, and Framer Motion",
+  "main": "src/index.js",
+>>>>>>> 3d3888d386f6dac4b3eb27431df1c257a7445c66
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -23,6 +31,33 @@
       "react-app",
       "react-app/jest"
     ]
+=======
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9693alok/tenant-app.git"
+  },
+  "homepage": "https://9693alok.github.io/tenant-app",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.23.12",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+>>>>>>> 3d3888d386f6dac4b3eb27431df1c257a7445c66
   },
   "browserslist": {
     "production": [
@@ -35,10 +70,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
+=======
+>>>>>>> 3d3888d386f6dac4b3eb27431df1c257a7445c66
   }
 }
